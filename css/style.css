@@ -34,8 +34,9 @@ body {
 /* main */
 
 .ba-container {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
+	padding: 20px 10px;
 }
 
 .ba-shopping-list [type="checkbox"] {
@@ -46,7 +47,7 @@ body {
 	top: -3px;
 	cursor: pointer;
 	margin-right: 10px;
- }
+}
 
 li {
 	list-style: none;
